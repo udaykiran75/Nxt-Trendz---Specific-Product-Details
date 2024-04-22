@@ -1,0 +1,56 @@
+.pds-image {
+  border-radius: 10px;
+  width: 100%;
+}
+.pds-name {
+  color: black;
+  font-family: Roboto;
+  font-size: 18px;
+}
+.pds-brand {
+  color: #616e7c;
+  font-family: Roboto;
+}
+.price {
+  color: #12022f;
+  font-family: Roboto;
+}
+.rating-review-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating-bton {
+  background-color: #3b82f6;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60px;
+  height: 32px;
+  border-radius: 9px;
+}
+.rating-no {
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0px;
+}
+.star {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.list-item {
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    width: 20%;
+    margin-right: 20px;
+  }
+}
